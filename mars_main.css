@@ -2,8 +2,6 @@ body{
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	background: #000;
-
-
 }
 
 header{
@@ -25,6 +23,39 @@ header::before{
 	z-index: 0;
 }
 
+.header-container{
+	margin-bottom: 350px;
+	color: white;
+	text-align: center;
+	width: 90%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+}
+.header-content h2{
+font-size: 3vmin;
+}
+
+
+.line{
+	width: 150px;
+	height: 4px;
+	background: rgb(67, 142, 233);
+	margin: 10px auto;
+	border-radius: 5px;
+
+}
+
+.header-content h1{
+	font-size: 62px;
+	font-weight: 600;
+
+		margin-top: 50px;
+	margin-bottom: 30px;
+
+	}
 section{
 	color: #fff;
 	background: #000;
@@ -34,14 +65,12 @@ section{
 
 section h1{
 	font-size: 4em;
-	z-index: 0;
 }
 
 section p{
 	line-height: 25px;
 	max-width: 1000px;
 	margin: 0 auto;
-	z-index: 0;
 }
 
 .reveal{
